@@ -6,7 +6,7 @@
 Please, make sure you have following:
 
 In file **\<projectDir\>/config/connections.js**:
-~~~json
+~~~javascript
 localMySQL: {
     adapter: 'sails-mysql',
     host: 'localhost',
@@ -17,7 +17,7 @@ localMySQL: {
 ~~~
 
 In file **\<projectDir\>/config/models.js**:
-~~~json
+~~~javascript
 connection: 'localMySQL',
 migrate: 'safe'
 ~~~
