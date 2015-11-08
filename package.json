@@ -1,0 +1,22 @@
+{
+  "name": "sails-genmodels",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Generate Models files for Sails App from MySQL Database",
+  "keywords": [],
+  "dependencies": {
+    "mysql": ">= 2.9.0"
+  },
+  "scripts": {
+    "debug": "node debug genmodels.js",
+    "start": "node genmodels.js"
+  },
+  "main": "genmodels.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.sukharenko.com:plane-recorder.git"
+  },
+  "author": "Yevgen 'Scorp' Sukharenko",
+  "license": "MIT",
+  "devDependencies": {}
+}
